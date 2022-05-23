@@ -20,7 +20,7 @@ module.exports = {
             name: "app_container",
             remotes: {
                 images_remote: "images_remote@https://microfrontendimageremote.netlify.app/remoteEntry.js",
-                videos_remote: "videos_remote@https://microfrontendvideoremote.netlify.app//remoteEntry.js"
+                videos_remote: "videos_remote@https://microfrontendvideoremote.netlify.app/remoteEntry.js"
             },
             shared: ['react', 'react-dom']
         }),
