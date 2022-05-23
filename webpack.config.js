@@ -19,8 +19,8 @@ module.exports = {
         new ModuleFederationPlugin({
             name: "app_container",
             remotes: {
-                images_remote: "images_remote@http://localhost:3002/remoteEntry.js",
-                videos_remote: "videos_remote@http://localhost:3003/remoteEntry.js"
+                images_remote: "images_remote@https://microfrontendimageremote.netlify.app/remoteEntry.js",
+                videos_remote: "videos_remote@https://microfrontendvideoremote.netlify.app//remoteEntry.js"
             },
             shared: ['react', 'react-dom']
         }),
